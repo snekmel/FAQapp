@@ -30,4 +30,8 @@ questions:Question[];
     return this.questions;
   }
 
+  addQuestion(question:Question){
+    this.questions.unshift(question);
+  }
+
 }
